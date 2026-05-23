@@ -14,7 +14,7 @@ struct ContentView: View {
     func sendNotification() {
         let content = UNMutableNotificationContent()
         content.title = "haha i got you"
-        content.body = "you got absolutely baited 💀"
+        content.body = "get rickrolled :)"
         content.sound = .default
 
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)
